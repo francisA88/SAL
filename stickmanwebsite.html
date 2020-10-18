@@ -1,0 +1,135 @@
+<!Doctype HTML>
+<html>
+  <head>
+    <title>StickMan Animation Library</title>
+    <meta name="viewport" content="width=device-width,height=device-height">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/ icon?family=Material+Icons" rel=" stylesheet">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="/sdcard/html_programs/materialize/js/materialize.min.js"></script>
+    <link href="/sdcard/html_programs/materialize/css/materialize.min.css" rel="stylesheet">
+    <style>
+      @font-face{
+        font-family: "iconfont";
+        src: url("materialdesignicons-webfont.ttf");
+      }
+      .icon{
+        font-family: iconfont;
+        display: block;
+        font-size: 24px;
+      }
+      ul{
+        list-style-type: disc;
+      }
+      body{
+        min-height:100vh;
+      }
+      div img{
+        width: 100%;
+        height: 200px;
+        margin-top: 10px;
+      }
+      footer img{
+        width: 100px;
+        height: 100px;
+        /*margin-top: 5px;*/
+      }
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  font-family: serif;
+}
+
+main {
+  flex: 1 0 auto;
+}
+    #footer{
+      background-color: #178f6ae5;
+    }
+    header{
+      background-color: #178f6ae5;
+    }
+    div.mdivider{
+      width: 100%;
+      height: 1px;
+      background-color: #178f6ae1;
+    }
+    .footer-copyright{
+      background-color: #008080;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+    }
+    </style>
+  </head>
+  <body>
+    <header class="darken-2 blue-grey-text text-darken-4 center-align z-depth-1">
+      <h5>The StickMan Animation Library</h5>
+      <h6>Made with <a href="https://kivy.org">Kivy</a></h6>
+    </header>
+    <div class="divider"></div>
+    <main>
+      <div class="container">
+        <div class="row">
+          <span class="center-align col s6 offset-s6 m6 offset-m6 l6 offset-l6 blue-text text-lighten-2"><span class="material-icons right icon black-text">&#xF2A4</span> Github link</span>
+        </div>
+        <div class="row">
+          <div class="parmallax-container">
+            <div class="parallmax"><img src="stickman_1.png" height="200px" width="100%"></div>
+          </div>
+          <p class="blue-grey-text"><i>The basic Stickman posture</i></p>
+        </div>
+       
+        <h4 class="blue-text text-darken-1">Installation</h4>
+        <div class="mdivider"></div>
+        <h5>Requirements</h5>
+        <ul class="browser-default">
+          <li>Kivy (<a href="https://kivy.org" class="teal-text text-darken-2">https://kivy.org</a>)</li>
+        </ul>
+      </div>
+      <div class="container">
+        <div class="row">
+          <h4 class="blue-text text-darken-1">Usage</h4>
+          <div class="mdivider"></div>
+          <p>After installing the prerequisites, download the latest release of the stickman project. Then extract and run the test.py in the root directory to see an example.</p>
+        </div>
+        <div class="row">
+          <div class="col m8 l8 offset-l2 offset-m2">
+            <img class="" src="stickman_1.png" alt="Display after running test.py">
+          </div>
+          <p></p>
+        </div>
+      </div>
+    </main>
+    <footer id="footer" class="page-foote r">
+      <div class="row">
+        <div class="col s4 m4 l4 offset-s4 offset-m4 offset-l4">
+          <img src="stickman_1.png" class="circle z-depth-1">
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <p class="blue-grey-text text-darken-4">Feel free to report bugs to my email</p>
+          <p class="bl_ue-grey-text tex_t-darken-2"><a href="mailto:francisali693@gmail.com">francisali693@gmail.com</a></p>
+          <p class="blue-grey-text text-darken-2">And the stickman github repo</p>
+          <p><h6 class="icon">&#xF2A4</h6><a href="https://github.com/francisA88/Stickman">Repo</a></p>
+        </div>
+      </div>
+      <div class="footer-copyright center-align blue-grey-text text-darken-4">
+        <p>github.com/francisA88</p>
+      </div>
+    </footer>
+    <script>
+      //document.querySelectorAll("a").forEach((x)=>x.setAttribute("class", "blue-text text-lighten-4"))
+      /*document.addEventListener('DOMContentLoaded', function() {*/
+      location.href="#footer"
+        var elems = document.querySelectorAll('.parallax');
+        var instances = M.Parallax.init(elems, options);
+  //});
+    </script>
+  </body>
+</html>

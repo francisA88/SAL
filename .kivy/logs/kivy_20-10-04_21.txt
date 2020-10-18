@@ -1,0 +1,87 @@
+[INFO   ] Logger: Record log in /storage/emulated/0/projects/StickMan_Clone(Dump)/.kivy/logs/kivy_20-10-04_21.txt
+[INFO   ] Kivy: v1.11.1
+[INFO   ] Kivy: Installed at "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.8/site-packages/kivy/__init__.py"
+[INFO   ] Python: v3.8.3 (default, Jun 15 2020, 02:19:10) 
+[GCC 9.3.0]
+[INFO   ] Python: Interpreter at "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/bin/python3"
+[INFO   ] Factory: 184 symbols loaded
+[INFO   ] Image: Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+[INFO   ] Window: Provider: sdl2
+[INFO   ] GL: Using the "OpenGL ES 2" graphics system
+[INFO   ] GL: Backend used <sdl2>
+[INFO   ] GL: OpenGL version <b'OpenGL ES 2.0 58bf738'>
+[INFO   ] GL: OpenGL vendor <b'ARM'>
+[INFO   ] GL: OpenGL renderer <b'Mali-400 MP'>
+[INFO   ] GL: OpenGL parsed version: 2, 0
+[INFO   ] GL: Texture max size <4096>
+[INFO   ] GL: Texture max units <8>
+[INFO   ] Window: auto add sdl2 input provider
+[INFO   ] Window: virtual keyboard not allowed, single mode, not docked
+[INFO   ] KivyMD: v0.103.0
+[INFO   ] Text: Provider: sdl2
+[INFO   ] GL: NPOT texture support is available
+[WARNING] Base: Unknown <android> provider
+[INFO   ] Base: Start application main loop
+[INFO   ] Base: Leaving application in progress...
+[WARNING] stderr: Traceback (most recent call last):
+[WARNING] stderr:   File "/storage/emulated/0/projects/StickMan_Clone(Dump)/AnimationEditor.py", line 91, in <module>
+[WARNING] stderr:     Editor().run()
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.8/site-packages/kivy/app.py", line 855, in run
+[WARNING] stderr:     runTouchApp()
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.8/site-packages/kivy/base.py", line 504, in runTouchApp
+[WARNING] stderr:     EventLoop.window.mainloop()
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.8/site-packages/kivy/core/window/window_sdl2.py", line 747, in mainloop
+[WARNING] stderr:     self._mainloop()
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.8/site-packages/kivy/core/window/window_sdl2.py", line 479, in _mainloop
+[WARNING] stderr:     EventLoop.idle()
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.8/site-packages/kivy/base.py", line 342, in idle
+[WARNING] stderr:     self.dispatch_input()
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.8/site-packages/kivy/base.py", line 327, in dispatch_input
+[WARNING] stderr:     post_dispatch_input(*pop(0))
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.8/site-packages/kivy/base.py", line 233, in post_dispatch_input
+[WARNING] stderr:     listener.dispatch('on_motion', etype, me)
+[WARNING] stderr:   File "kivy/_event.pyx", line 707, in kivy._event.EventDispatcher.dispatch
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.8/site-packages/kivy/core/window/__init__.py", line 1402, in on_motion
+[WARNING] stderr:     self.dispatch('on_touch_down', me)
+[WARNING] stderr:   File "kivy/_event.pyx", line 707, in kivy._event.EventDispatcher.dispatch
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.8/site-packages/kivy/core/window/__init__.py", line 1418, in on_touch_down
+[WARNING] stderr:     if w.dispatch('on_touch_down', touch):
+[WARNING] stderr:   File "kivy/_event.pyx", line 707, in kivy._event.EventDispatcher.dispatch
+[WARNING] stderr:   File "widget.py", line 549, in kivy.uix.widget.Widget.on_touch_down
+[WARNING] stderr:   File "kivy/_event.pyx", line 707, in kivy._event.EventDispatcher.dispatch
+[WARNING] stderr:   File "widget.py", line 549, in kivy.uix.widget.Widget.on_touch_down
+[WARNING] stderr:   File "kivy/_event.pyx", line 707, in kivy._event.EventDispatcher.dispatch
+[WARNING] stderr:   File "widget.py", line 549, in kivy.uix.widget.Widget.on_touch_down
+[WARNING] stderr:   File "kivy/_event.pyx", line 707, in kivy._event.EventDispatcher.dispatch
+[WARNING] stderr:   File "widget.py", line 549, in kivy.uix.widget.Widget.on_touch_down
+[WARNING] stderr:   File "kivy/_event.pyx", line 707, in kivy._event.EventDispatcher.dispatch
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.8/site-packages/kivymd/uix/slider.py", line 262, in on_touch_down
+[WARNING] stderr:     if super().on_touch_down(touch):
+[WARNING] stderr:   File "slider.py", line 393, in kivy.uix.slider.Slider.on_touch_down
+[WARNING] stderr:   File "kivy/properties.pyx", line 497, in kivy.properties.Property.__set__
+[WARNING] stderr:   File "kivy/properties.pyx", line 1526, in kivy.properties.AliasProperty.set
+[WARNING] stderr:   File "slider.py", line 352, in kivy.uix.slider.Slider.set_value_pos
+[WARNING] stderr:   File "kivy/properties.pyx", line 497, in kivy.properties.Property.__set__
+[WARNING] stderr:   File "kivy/properties.pyx", line 1526, in kivy.properties.AliasProperty.set
+[WARNING] stderr:   File "slider.py", line 298, in kivy.uix.slider.Slider.set_norm_value
+[WARNING] stderr:   File "kivy/properties.pyx", line 497, in kivy.properties.Property.__set__
+[WARNING] stderr:   File "kivy/properties.pyx", line 544, in kivy.properties.Property.set
+[WARNING] stderr:   File "kivy/properties.pyx", line 599, in kivy.properties.Property.dispatch
+[WARNING] stderr:   File "kivy/_event.pyx", line 1214, in kivy._event.EventObservers.dispatch
+[WARNING] stderr:   File "kivy/_event.pyx", line 1120, in kivy._event.EventObservers._dispatch
+[WARNING] stderr:   File "kivy/properties.pyx", line 1503, in kivy.properties.AliasProperty.trigger_change
+[WARNING] stderr:   File "kivy/properties.pyx", line 1510, in kivy.properties.AliasProperty.trigger_change
+[WARNING] stderr:   File "kivy/properties.pyx", line 1537, in kivy.properties.AliasProperty.dispatch
+[WARNING] stderr:   File "kivy/_event.pyx", line 1214, in kivy._event.EventObservers.dispatch
+[WARNING] stderr:   File "kivy/_event.pyx", line 1096, in kivy._event.EventObservers._dispatch
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.8/site-packages/kivy/lang/builder.py", line 64, in custom_callback
+[WARNING] stderr:     exec(__kvlang__.co_value, idmap)
+[WARNING] stderr:   File "/storage/emulated/0/projects/StickMan_Clone(Dump)/main.kv", line 155, in <module>
+[WARNING] stderr:     app.register_temp(f"\nspeed: {self.value}\n")
+[WARNING] stderr:   File "/storage/emulated/0/projects/StickMan_Clone(Dump)/AnimationEditor.py", line 72, in register_temp
+[WARNING] stderr:     self.loader.run(string)
+[WARNING] stderr:   File "/storage/emulated/0/projects/StickMan_Clone(Dump)/animationloader.py", line 91, in run
+[WARNING] stderr:     self.evaluate()
+[WARNING] stderr:   File "/storage/emulated/0/projects/StickMan_Clone(Dump)/animationloader.py", line 152, in evaluate
+[WARNING] stderr:     self.anim_queue[-1].bind(on_complete=self.on_completion)
+[WARNING] stderr: IndexError: list index out of range

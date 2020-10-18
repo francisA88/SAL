@@ -1,0 +1,46 @@
+[INFO   ] Logger: Record log in /storage/emulated/0/projects/StickMan_Clone(Dump)/.kivy/logs/kivy_20-10-04_30.txt
+[INFO   ] Kivy: v1.11.1
+[INFO   ] Kivy: Installed at "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.8/site-packages/kivy/__init__.py"
+[INFO   ] Python: v3.8.3 (default, Jun 15 2020, 02:19:10) 
+[GCC 9.3.0]
+[INFO   ] Python: Interpreter at "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/bin/python3"
+[INFO   ] Image: Providers: img_tex, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+[INFO   ] Factory: 184 symbols loaded
+[INFO   ] Window: Provider: sdl2
+[INFO   ] GL: Using the "OpenGL ES 2" graphics system
+[INFO   ] GL: Backend used <sdl2>
+[INFO   ] GL: OpenGL version <b'OpenGL ES 2.0 58bf738'>
+[INFO   ] GL: OpenGL vendor <b'ARM'>
+[INFO   ] GL: OpenGL renderer <b'Mali-400 MP'>
+[INFO   ] GL: OpenGL parsed version: 2, 0
+[INFO   ] GL: Texture max size <4096>
+[INFO   ] GL: Texture max units <8>
+[INFO   ] Window: auto add sdl2 input provider
+[INFO   ] Window: virtual keyboard not allowed, single mode, not docked
+[INFO   ] Text: Provider: sdl2
+[WARNING] Base: Unknown <android> provider
+[INFO   ] Base: Start application main loop
+[INFO   ] Base: Leaving application in progress...
+[WARNING] stderr: Traceback (most recent call last):
+[WARNING] stderr:   File "/storage/emulated/0/projects/StickMan_Clone(Dump)/test.py", line 65, in <module>
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.8/site-packages/kivy/app.py", line 855, in run
+[WARNING] stderr:     runTouchApp()
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.8/site-packages/kivy/base.py", line 504, in runTouchApp
+[WARNING] stderr:     EventLoop.window.mainloop()
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.8/site-packages/kivy/core/window/window_sdl2.py", line 747, in mainloop
+[WARNING] stderr:     self._mainloop()
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.8/site-packages/kivy/core/window/window_sdl2.py", line 479, in _mainloop
+[WARNING] stderr:     EventLoop.idle()
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.8/site-packages/kivy/base.py", line 339, in idle
+[WARNING] stderr:     Clock.tick()
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.8/site-packages/kivy/clock.py", line 591, in tick
+[WARNING] stderr:     self._process_events()
+[WARNING] stderr:   File "kivy/_clock.pyx", line 384, in kivy._clock.CyClockBase._process_events
+[WARNING] stderr:   File "kivy/_clock.pyx", line 414, in kivy._clock.CyClockBase._process_events
+[WARNING] stderr:   File "kivy/_clock.pyx", line 412, in kivy._clock.CyClockBase._process_events
+[WARNING] stderr:   File "kivy/_clock.pyx", line 167, in kivy._clock.ClockEvent.tick
+[WARNING] stderr:   File "/storage/emulated/0/projects/StickMan_Clone(Dump)/test.py", line 51, in <lambda>
+[WARNING] stderr:     Clock.schedule_once(lambda dt: alx.run_file("animations/double_punch.xml"), 6)
+[WARNING] stderr:   File "/storage/emulated/0/projects/StickMan_Clone(Dump)/parser/xmlanimparser.py", line 31, in run_file
+[WARNING] stderr:     return self.run(open(filename).read())
+[WARNING] stderr: FileNotFoundError: [Errno 2] No such file or directory: 'animations/double_punch.xml'

@@ -1,0 +1,8 @@
+The animations/ directory contains some animation files. Feel free to check them out and even add your own! Use the AnimationEditor.py to visualize generating new .anim files, and after that, run animToXML.py to generate the corresponding xml file from the .anim file.
+=====
+NOTE
+=====
+   1) The animloader for .anim files is unstable and quite unusable. Make sure to generate a corresponding xml file and run the xml file instead
+   2) Some of the animation xml files here are just random moves. Some are not just not good.
+   
+You can contribute by remaking the animationEditor or by adding new features and fixes. Also contribute by making new animations.

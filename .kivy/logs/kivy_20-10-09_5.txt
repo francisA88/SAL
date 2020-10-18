@@ -1,0 +1,27 @@
+[INFO   ] Logger: Record log in /storage/emulated/0/projects/StickMan_Clone(Dump)/.kivy/logs/kivy_20-10-09_5.txt
+[INFO   ] Kivy: v1.11.1
+[INFO   ] Kivy: Installed at "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/lib/python3.8/site-packages/kivy/__init__.py"
+[INFO   ] Python: v3.8.3 (default, Jun 15 2020, 02:19:10) 
+[GCC 9.3.0]
+[INFO   ] Python: Interpreter at "/data/user/0/ru.iiec.pydroid3/files/arm-linux-androideabi/bin/python3"
+[INFO   ] Factory: 184 symbols loaded
+[INFO   ] Image: Providers: img_tex, img_dds, img_sdl2, img_gif (img_pil, img_ffpyplayer ignored)
+[INFO   ] Window: Provider: sdl2
+[INFO   ] GL: Using the "OpenGL ES 2" graphics system
+[INFO   ] GL: Backend used <sdl2>
+[INFO   ] GL: OpenGL version <b'OpenGL ES 2.0 58bf738'>
+[INFO   ] GL: OpenGL vendor <b'ARM'>
+[INFO   ] GL: OpenGL renderer <b'Mali-400 MP'>
+[INFO   ] GL: OpenGL parsed version: 2, 0
+[INFO   ] GL: Texture max size <4096>
+[INFO   ] GL: Texture max units <8>
+[INFO   ] Window: auto add sdl2 input provider
+[INFO   ] Window: virtual keyboard not allowed, single mode, not docked
+[INFO   ] KivyMD: v0.103.0
+[INFO   ] Text: Provider: sdl2
+[INFO   ] GL: NPOT texture support is available
+[WARNING] Base: Unknown <android> provider
+[INFO   ] Base: Start application main loop
+[WARNING] Deprecated property "<StringProperty name=id>" of object "<stickman.StickMan object at 0x8ca1d118>" was accessed, it will be removed in a future version
+[INFO   ] Base: Leaving application in progress...
+[INFO   ] WindowSDL: exiting mainloop and closing.
